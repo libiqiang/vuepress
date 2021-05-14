@@ -2,6 +2,7 @@ module.exports = {
     title: '接入支持',
     description: 'Just playing around',
     base: '/vuepress/',
+    dest:'public',
     themeConfig: {
         // nav: [
         //   { text: 'Home', link: '/' },
@@ -26,16 +27,16 @@ module.exports = {
                 collapsable: false,
                 children: [{
                     title: '取密配置文件',
-                    path: '/sdk/',
+                    path: '/support/README2',
                 }, {
                     title: 'RESTful接口',
-                    path: '/sdk/',
+                    path: '/support/README3',
                 }, {
                     title: 'SOAP接口',
-                    path: '/sdk/',
+                    path: '/support/README4',
                 }, {
                     title: 'socket长连接通讯',
-                    path: '/sdk/',
+                    path: '/support/README5',
                 }],
                 initialOpenGroupIndex: -1 // 可选的, 默认值是 0
             },
